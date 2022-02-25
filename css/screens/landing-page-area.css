@@ -1,0 +1,24 @@
+.landing-area {
+
+}
+
+
+.landing-area--wrap {
+    height: 100vh;
+    border: 1px solid tomato;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.landing-area--text {
+}
+
+.landing-area--text-title {
+}
+
+
+.landing-area--video {
+
+}
