@@ -5,20 +5,26 @@
 
 .landing-area--wrap {
     height: 100vh;
-    border: 1px solid tomato;
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
 
 .landing-area--text {
+    font-weight: 600;
+    margin: 50px 90px;
+    font-size: 16px;
 }
 
 .landing-area--text-title {
+
 }
 
 
 .landing-area--video {
-
+    background-color: black;
+    width: 100%;
+    height: 65vh;
 }
