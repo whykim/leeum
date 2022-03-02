@@ -1,0 +1,38 @@
+.contents-collections {
+    height: 100vh;
+    width: 100%;
+}
+
+.contents-collections--title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.contents-collections--title-text {
+    text-align: left;
+    width: 1260px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.contents-collections--item {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contents-collections--item-title {
+    width: 460px;
+    text-align: start;
+}
+
+.contents-collections--item-img {
+    width: 800px;
+}
+
+
+.contents-collections--item-img >img {
+    width: 100%;
+}

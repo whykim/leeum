@@ -1,14 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 
 /*component*/
 
 @import "components/navigation-bar.css";
-@import "screens/contents-exhibition-area.css";
+@import "screens/contents-exhibition.css";
+
 /*screens*/
 
 @import "screens/landing-page-area.css";
-
+@import "screens/contents-collections.css";
+@import "screens/contents-introduce.css";
+@import "screens/contents-authors.css";
 
 * {
     text-decoration: none;
