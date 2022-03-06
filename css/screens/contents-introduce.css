@@ -5,14 +5,12 @@
 .contents-introduce-wrap{
     display: flex;
     justify-content: center;
-    align-items: center;
+    height: auto;
 }
 
 .contents-space,
 .contents-notices {
     width: 630px;
-    height: 300px;
-    overflow: auto;
 }
 
 .contents-space--title {
@@ -22,7 +20,6 @@
 .contents-space--title_text,
 .contents-space--title_sub-text {
     width: 100%;
-
 }
 
 .contents-space--title_sub-text {
@@ -65,5 +62,4 @@
 
 .contents-notices--post_text{
     width: 450px;
-
 }

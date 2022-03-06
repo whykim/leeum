@@ -1,14 +1,19 @@
 .nav-bar {
-    width: 100%;
     position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     color: transparent;
     margin-top: 20px;
 }
 
 
 .nav-bar--wrap {
+    width: 1230px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 24px;
 }
 
 .nav-bar--information {

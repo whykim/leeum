@@ -3,14 +3,16 @@
 /*component*/
 
 @import "components/navigation-bar.css";
-@import "screens/contents-exhibition.css";
+@import "components/more.css";
 
 /*screens*/
 
-@import "screens/landing-page-area.css";
+@import "screens/intro-page.css";
+@import "screens/contents-exhibition.css";
 @import "screens/contents-collections.css";
 @import "screens/contents-introduce.css";
 @import "screens/contents-authors.css";
+@import "screens/footer.css";
 
 * {
     text-decoration: none;
