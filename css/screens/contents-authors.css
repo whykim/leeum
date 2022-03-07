@@ -11,6 +11,8 @@
 .contents-authors--title-text {
     font-size: 36px;
     width: 630px;
+    text-align: start;
+
 }
 
 .contents-authors--title-subtext {

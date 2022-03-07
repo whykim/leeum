@@ -10,8 +10,12 @@
 }
 
 
-.footer-left--address > span {
+.footer-left--address > span,
+.footer-left--email > span {
     color: grey;
     font-size: 16px;
+}
 
+.footer-left--email-deny {
+    color: white;
 }
