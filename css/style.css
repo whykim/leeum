@@ -1,5 +1,3 @@
-
-
 /*component*/
 
 @import "components/navigation-bar.css";
@@ -7,12 +5,18 @@
 
 /*screens*/
 
-@import "screens/intro-page.css";
+@import "screens/intro-area.css";
 @import "screens/contents-exhibition.css";
 @import "screens/contents-collections.css";
 @import "screens/contents-introduce.css";
 @import "screens/contents-authors.css";
 @import "screens/footer.css";
+@import "screens/contents-wrap.css";
+
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
 
 * {
     text-decoration: none;
@@ -20,5 +24,9 @@
     padding: 0;
     box-sizing: border-box;
     color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
 }
+
+
 
