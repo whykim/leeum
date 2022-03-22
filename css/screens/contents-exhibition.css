@@ -62,17 +62,10 @@
 
 }
 
-.contents-exhibition--slider {
-    width: 100%;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 @media screen and (max-width: 800px) {
     .contents-exhibition--title {
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
     }
 
     .contents-exhibition--title-main {

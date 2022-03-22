@@ -75,13 +75,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-right--etc-dropdown {
     border: 1px solid white;
     padding: 10px;
-}
+    margin-top: 10px;
 
+}
 
 .footer-right--etc-dropdown_btn {
     background-color: black;
@@ -97,4 +99,50 @@
     height: 10px;
     background-color: whitesmoke;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer{
+        padding: 30px;
+    }
+    .footer-left,
+    .footer-left--address,
+    .footer-left--address,
+    .footer-right {
+        width: 100%;
+    }
+
+    .footer-right--etc-dropdown_btn-dot {
+        display: none;
+    }
+
+    .footer-right--etc-dropdown {
+        width: 100%;
+    }
+
+    .footer-right--etc-dropdown {
+        width: 500px;
+        margin-bottom: 10px;
+    }
+
+    .footer-right--etc-dropdown_btn {
+        justify-content: flex-start;
+    }
+
+    .footer-right--sitemap {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .footer-right--sitemap-notices,
+    .footer-right--sitemap-sns,
+    .footer-right--sitemap-sell{
+        width: 33%;
+    }
+
+
+
+    .footer-right--etc {
+        flex-wrap: wrap-reverse;
+    }
 }
