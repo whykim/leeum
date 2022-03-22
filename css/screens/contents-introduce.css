@@ -1,15 +1,13 @@
 .contents-introduce {
     height: 80vh;
-}
-
-.contents-introduce-wrap {
     display: flex;
     justify-content: center;
 }
 
 .contents-space,
 .contents-notices {
-    width: 630px;
+    width: 50%;
+    border: 1px solid tomato;
 }
 
 .contents-space--title {
