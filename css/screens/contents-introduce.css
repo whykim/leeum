@@ -83,6 +83,11 @@
         width: 100%;
     }
 
+    .contents-space--title_text,
+    .contents-notices--title {
+        font-size: 24px;
+    }
+
     .contents-notices--post > span {
         font-size: 14px;
     }

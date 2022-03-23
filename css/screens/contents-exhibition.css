@@ -70,10 +70,13 @@
 
     .contents-exhibition--title-main {
         width: 100%;
+        font-size: 24px;
     }
 
     .contents-exhibition--title-sub {
         width: 100%;
+        font-size: 14px;
+
     }
 
     .contents-exhibition--boxes-box2 {
@@ -82,6 +85,11 @@
 
     .contents-exhibition--boxes-box1 {
         width: 100%;
+    }
+
+    [data-id="exhibition-name"],
+    [data-id="exhibition-date"] {
+        font-size: 14px;
     }
 
 }

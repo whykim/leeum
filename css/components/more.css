@@ -1,3 +1,10 @@
 .contents-exhibition--title-sub_more {
     padding-top: 30px;
 }
+
+
+@media screen and (max-width: 800px) {
+    .contents-exhibition--title-sub_more {
+        font-size: 14px;
+    }
+}

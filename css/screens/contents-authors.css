@@ -60,10 +60,12 @@
 
     .contents-authors--title-text {
         width: 100%;
+        font-size: 24px;
     }
 
     .contents-authors--title-subtext {
         width: 100%;
+        font-size: 14px;
     }
 
     .cards-first-wrap {
@@ -97,6 +99,7 @@
 
     .contents-authors--cards-card_name {
         text-align: center;
+        font-size: 14px;
     }
 
 

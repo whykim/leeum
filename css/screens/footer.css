@@ -102,9 +102,11 @@
 }
 
 @media screen and (max-width: 800px) {
-    .footer{
+    .footer {
         padding: 30px;
+        font-size: 14px;
     }
+
     .footer-left,
     .footer-left--address,
     .footer-left--address,
@@ -136,13 +138,16 @@
 
     .footer-right--sitemap-notices,
     .footer-right--sitemap-sns,
-    .footer-right--sitemap-sell{
+    .footer-right--sitemap-sell {
         width: 33%;
     }
-
-
 
     .footer-right--etc {
         flex-wrap: wrap-reverse;
     }
+
+    .footer-left--address > span {
+        font-size: 14px;
+    }
+
 }
